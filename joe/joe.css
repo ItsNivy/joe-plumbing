@@ -1,0 +1,140 @@
+nav {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 20px;
+  justify-content: flex-end;
+  color: antiquewhite;
+}
+
+html{
+    background-color: darkslategrey;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma,
+     Geneva, Verdana, 
+    sans-serif;}
+.hero {display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  color: antiquewhite;
+  text-align: center;
+}
+.hero-images {
+  justify-content: center;
+  display: flex;
+  gap: 60px;
+}
+.hero img  {
+justify-content: center;
+  height: 350px;
+  width: 350px;
+   border-radius: 30px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+
+.hero-text{
+  text-align: center;
+  justify-content: center;
+  padding: auto;
+  
+}
+.hero button {
+  align-self: center;
+  background-color: goldenrod;
+  padding: 10px 25px;
+  border-radius: 10px;
+  color: antiquewhite;
+  border: none;
+  cursor: pointer;
+}
+.hero button:hover {
+  background-color: darkgoldenrod;
+
+}
+nav div {
+  cursor: pointer;
+  font-weight: 500;
+}
+nav div:hover {
+  color: goldenrod; 
+}
+.container{
+  max-width: 11000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(29, 56, 56);
+ border-radius: 20px;
+}
+section{
+  background-color: rgb(29, 56, 56);
+border-radius: 20px;
+margin : 20px
+}
+.Service {
+  padding: 40px 60px;
+  color: antiquewhite;
+}
+
+.Service h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.service-card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.service-card p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.hours{
+  color: antiquewhite;
+  text-align: center;
+  padding: 10px;
+}
+.Contact{
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+}
+footer{
+  color: antiquewhite;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .hero-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
